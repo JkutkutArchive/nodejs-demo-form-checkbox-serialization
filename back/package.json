@@ -1,0 +1,19 @@
+{
+  "name": "form-back",
+  "module": "index.ts",
+  "type": "module",
+  "scripts": {
+    "dev": "bun --watch --smol run ./src/index.ts"
+  },
+  "devDependencies": {
+    "@types/bun": "latest",
+    "@types/express": "^4.17.21"
+  },
+  "peerDependencies": {
+    "typescript": "^5.0.0"
+  },
+  "dependencies": {
+    "express": "^4.21.0",
+    "multer": "^1.4.5-lts.1"
+  }
+}

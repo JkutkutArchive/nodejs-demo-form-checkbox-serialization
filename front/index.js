@@ -23,11 +23,11 @@ document.addEventListener("DOMContentLoaded", () => {
       sau.value = value;
     }
 
-    // Solution 3
+    // Solution 2
     // sau.value = value;
     // sau.type = "hidden";
 
-    // Solution 4
+    // Solution 3
     // Make our own request!
 
     console.log("Event after logic", e);
@@ -36,7 +36,7 @@ document.addEventListener("DOMContentLoaded", () => {
     console.log(new FormData(form));
     return true;
   });
-  form.addEventListener("submit", (e) => {
-    // e.preventDefault();
-  });
+  // form.addEventListener("submit", (e) => {
+  //   e.preventDefault();
+  // });
 });
